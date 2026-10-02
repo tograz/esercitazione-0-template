@@ -6,7 +6,7 @@ Componenti (nome, cognome e username GitHub di entrambi): Tommaso Graziani, togr
 
 URL del repository condiviso: 
 
-Chi ha usato la tastiera nello step 1 e nello step 2: Edoardo Palombi
+Chi ha usato la tastiera nello step 1 e nello step 2: Tommaso Graziani step 1, Edoardo Palombi step 2
 
 Compilate insieme le osservazioni e discutete le risposte: entrambi dovete
 saper spiegare le prove svolte.
@@ -32,34 +32,34 @@ Come ho verificato che la versione provata sia presente su GitHub: Ho aperto il 
 
 Scrivo questa frase come prova prima di fare git pull modificando direttamente dal repository su github.
 
-Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone:
+Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone: prima di git pull il comando git log --oneline -5 non mostrava il messaggio dell'ultimo commit effettuato direttamente dal repository online, mentre dopo pull le modifiche sono state importate e anche il messaggio del commit risulta visibile. osservazioni.md risulta modificato e la frase di prova scritta sopra è visibile in locale.
 
 ## Step 2 — Eco: prima prova
 
-Argomenti passati, comando e risultato:
+Argomenti passati, comando e risultato: ciao 12 3.5, ./eco ciao 12 3.5, ciao 12 3.500000 dentro eco.txt
 
-Che cosa posso concludere:
+Che cosa posso concludere: il programma restituisce l'output desiderato con decimali giusti
 
 ## Step 2 — Eco: seconda prova
 
-Argomenti passati, comando e risultato:
+Argomenti passati, comando e risultato: ciao dodici 3.5, ./eco ciao dodici 3.5, ciao 0 3.50000 
 
-Che cosa ho capito su testo, conversioni e stampa:
+Che cosa ho capito su testo, conversioni e stampa: atoi ha comunque restituito un intero ma è 0 non avendo trovato cifre numeriche.
 
 ## Step 2 — Risultato ed errori
 
-Previsioni per l'esecuzione con argomenti validi e per quella con `dodici`:
+Previsioni per l'esecuzione con argomenti validi e per quella con `dodici`:con dodici era previsto un errore mentre il file gira normalmente restituendo 0 come intero.
 
-Contenuto di `eco.txt`, messaggi nel terminale e codici di uscita osservati:
+Contenuto di `eco.txt`, messaggi nel terminale e codici di uscita osservati: nel primo caso l'output è corretto, con dodici appare 0 e i codici di uscita osservati con echo &? sono sempre 0
 
-Come un controllo automatico può riconoscere un errore:
+Come un controllo automatico può riconoscere un errore: si può aggiungere per argv[2] e argv[3] un controllo carattere per carattere, in un ciclo iterativo per esempio, con una funzione che mostri se si tratta di una cifra o di un carattere non convertibile da atoi e atof.
 
 ## Step 2 — Parametri e calcolo fisico
 
-Quando serve ricompilare e quando basta cambiare gli argomenti:
+Quando serve ricompilare e quando basta cambiare gli argomenti: serve ricompilare se viene modificato qualche valore scritto nel sorgente, mentre inserendo solo nuovi argomenti nel terminale il file non richiede modifiche e produce output diversi.
 
 ## Step 2 — Git
 
-Come riconosco nella cronologia i commit dei due step:
+Come riconosco nella cronologia i commit dei due step: dai messaggi inseriti in git commit -m "messaggio" direttamente visibili.
 
-Come ho verificato che la versione finale sia presente su GitHub:
+Come ho verificato che la versione finale sia presente su GitHub: controllando online direttamente nel repository i file e che i messaggi dell'ultimo commit sul terminale e sul sito coincidessero.
