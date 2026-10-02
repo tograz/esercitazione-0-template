@@ -1,12 +1,12 @@
 # Osservazioni — Esercitazione 0
 
-Gruppo:
+Gruppo: 
 
-Componenti (nome, cognome e username GitHub di entrambi):
+Componenti (nome, cognome e username GitHub di entrambi): Tommaso Graziani, tograz, Edoardo Palombi, palombi2260279
 
-URL del repository condiviso:
+URL del repository condiviso: 
 
-Chi ha usato la tastiera nello step 1 e nello step 2:
+Chi ha usato la tastiera nello step 1 e nello step 2: Edoardo Palombi
 
 Compilate insieme le osservazioni e discutete le risposte: entrambi dovete
 saper spiegare le prove svolte.
