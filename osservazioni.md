@@ -1,6 +1,6 @@
 # Osservazioni — Esercitazione 0
 
-Gruppo:
+Gruppo: C15
 
 Componenti (nome, cognome e username GitHub di entrambi): Tommaso Graziani, tograz, Edoardo Palombi, palombi2260279
 
@@ -29,6 +29,8 @@ Esito dopo la modifica e spiegazione della correzione: dopo la modifica il progr
 Quali file ho incluso nel commit e perché: hello.c e osservazioni.md perché sono i file su cui è stato necessario effettuare modifiche in locale da inviare poi con push. 
 
 Come ho verificato che la versione provata sia presente su GitHub: Ho aperto il repository su github dopo git push e verificato che il messaggio dell'ultimo commit corrispondesse a quellogiusto, abbiamo anche controllato i file.
+
+Scrivo questa frase come prova prima di fare git pull modificando direttamente dal repository su github.
 
 Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone:
 
